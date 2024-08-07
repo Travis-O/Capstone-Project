@@ -7,6 +7,7 @@
         <meta name="author" content="Travis Owens">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
+        <script type="module" src="map.js"></script>
     </head>
     <body>
 
@@ -25,6 +26,7 @@
 
         <main>
             <h2>Taking the next step</h2>
+            <hr>
             <p>Call us or send us a text at <u>(859)-356-2944</u> or <u>(859)-912-2712</u> with everything on your confirmation letter and give us a description of what you want your project to look like.</p>
 
             <p>Or</p>
@@ -32,10 +34,13 @@
             <p>Send us an email at <u>dajrowens24@gmail.com</u> with everything in your confirmation letter and provide a description of your final project.</p>
 
             <p>The drop-off point is at our shop located on <u>827 Bagby Road, Crittenden, KY, 41030.</u></p>
-
-            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3109.7013640145924!2d-84.5629899242562!3d38.793479971746365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88419463df7c7a4b%3A0x620dbe70945623b5!2s827%20Bagby%20Rd%2C%20Crittenden%2C%20KY%2041030!5e0!3m2!1sen!2sus!4v1722993119575!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
-
-            <p>Thank you for doing business with us, we hope to hear from you soon!</p>
         </main>
+
+        <div>
+            <div id="map"></div>
+
+            <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+                ({key: "AIzaSyDXQquRS19YnhngfcNr-FAQgPB5YIA996M", v: "weekly"});</script>
+            </div>
     </body>
 </html>
